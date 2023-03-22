@@ -29,11 +29,10 @@ public class task2 {
             sumItems += item;
         }
         float average = (float)sumItems/intlist.size();
-        System.out.printf("Максимальный элемент при помощи max %s\n", max);
+        System.out.printf("Максимальный элемент %s\n", max);
         //System.out.printf("Максимальный элемент %s\n", maxItem);
-        System.out.printf("Минимальный элемент при помощи min %s\n", min);
+        System.out.printf("Минимальный элемент %s\n", min);
         //System.out.printf("Минимальный элемент %s\n", minItem);
-        System.out.printf("Сумма элементов %s\n", sumItems);
         System.out.printf("Среднее арифметическое %s\n", average);
     }
 }
